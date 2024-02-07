@@ -3,7 +3,6 @@ Sum of Series :
 class Solution {
   public:
     long long seriesSum(int n) {
-        // code here
         long long ans = n;
        return (ans*(ans+1))/2;
         
